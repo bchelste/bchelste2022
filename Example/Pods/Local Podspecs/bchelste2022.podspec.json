@@ -1,0 +1,22 @@
+{
+  "name": "bchelste2022",
+  "version": "0.1.0",
+  "summary": "A short description of bchelste2022.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/bchelste/bchelste2022",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "bchelste": "bchelste@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bchelste/bchelste2022.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "bchelste2022/Classes/**/*"
+}

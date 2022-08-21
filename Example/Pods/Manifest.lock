@@ -1,0 +1,16 @@
+PODS:
+  - bchelste2022 (0.1.0)
+
+DEPENDENCIES:
+  - bchelste2022 (from `../`)
+
+EXTERNAL SOURCES:
+  bchelste2022:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  bchelste2022: 1b9bc33cd04484df0b13bbba84e715a92e9682a8
+
+PODFILE CHECKSUM: 48f66b861f7740334f21acf55b871e893a9cb3da
+
+COCOAPODS: 1.11.3
