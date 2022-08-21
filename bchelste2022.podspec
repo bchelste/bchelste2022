@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'bchelste2022'
-  s.version          = '0.1.0'
+  s.version          = '0.1.4'
   s.summary          = 'bchelste2022'
 
   s.description      = <<-DESC
@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'CoreData',
+  s.frameworks = 'UIKit', 'CoreData'
   
 end
