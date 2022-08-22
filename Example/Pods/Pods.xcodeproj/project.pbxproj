@@ -13,8 +13,10 @@
 		6E2FEF9A7599A15138B03AB0B17FE255 /* Pods-bchelste2022_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66437F42906540E57EE884F055375F51 /* Pods-bchelste2022_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85693279B10CF41B3F3A36F6AE92BC8B /* Pods-bchelste2022_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4393ADBE34D47EF1DCE29EBBA535FB03 /* Pods-bchelste2022_Tests-dummy.m */; };
 		989C4B8097AAF7AC1473D5ED9F4C4BFE /* Pods-bchelste2022_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CFA3CCE106C7641C8C14995A840F84 /* Pods-bchelste2022_Example-dummy.m */; };
-		A98EAF9928B27E0D00FCF9C7 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EAF9828B27E0D00FCF9C7 /* Article.swift */; };
-		A98EAF9C28B27E3D00FCF9C7 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A98EAF9A28B27E3D00FCF9C7 /* article.xcdatamodeld */; };
+		A98EB02B28B2C8D400FCF9C7 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB02A28B2C8D400FCF9C7 /* ArticleManager.swift */; };
+		A98EB03228B301E900FCF9C7 /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB02628B2B93800FCF9C7 /* Article+CoreDataClass.swift */; };
+		A98EB03328B301ED00FCF9C7 /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98EB02728B2B93800FCF9C7 /* Article+CoreDataProperties.swift */; };
+		A98EB03428B303D500FCF9C7 /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A98EB02328B2B84D00FCF9C7 /* article.xcdatamodeld */; };
 		ADC018B71AFA5BDB7E74FDECF270E2C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		DF364DD60A2A4D227826FD947FA538A6 /* bchelste2022-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D08386C598ABF63E67251D29E00B858 /* bchelste2022-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB476DFE2F03498296E24A267E33FF01 /* bchelste2022-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB90FB763659EF37C0FCEAED63B5841 /* bchelste2022-dummy.m */; };
@@ -59,8 +61,10 @@
 		8D08386C598ABF63E67251D29E00B858 /* bchelste2022-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "bchelste2022-umbrella.h"; sourceTree = "<group>"; };
 		9AB90FB763659EF37C0FCEAED63B5841 /* bchelste2022-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "bchelste2022-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A98EAF9828B27E0D00FCF9C7 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
-		A98EAF9B28B27E3D00FCF9C7 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		A98EB02428B2B84D00FCF9C7 /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		A98EB02628B2B93800FCF9C7 /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A98EB02728B2B93800FCF9C7 /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A98EB02A28B2C8D400FCF9C7 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
 		B189A85038500F892F6DA389E272C6E6 /* Pods-bchelste2022_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bchelste2022_Example-umbrella.h"; sourceTree = "<group>"; };
 		B3528B386156D3F2F90DAF6826E97E40 /* Pods-bchelste2022_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bchelste2022_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB9690BF58B2E325406225B6BC91B98C /* Pods-bchelste2022_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bchelste2022_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,11 +190,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A98EAF9728B27DCA00FCF9C7 /* Source */ = {
+		A98EB01B28B2B62B00FCF9C7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A98EAF9828B27E0D00FCF9C7 /* Article.swift */,
-				A98EAF9A28B27E3D00FCF9C7 /* article.xcdatamodeld */,
+				A98EB02328B2B84D00FCF9C7 /* article.xcdatamodeld */,
+				A98EB02628B2B93800FCF9C7 /* Article+CoreDataClass.swift */,
+				A98EB02728B2B93800FCF9C7 /* Article+CoreDataProperties.swift */,
+				A98EB02A28B2C8D400FCF9C7 /* ArticleManager.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -226,7 +232,7 @@
 		E5545E92F4D4B079C66164F262FC12B7 /* bchelste2022 */ = {
 			isa = PBXGroup;
 			children = (
-				A98EAF9728B27DCA00FCF9C7 /* Source */,
+				A98EB01B28B2B62B00FCF9C7 /* Source */,
 				4A80C14DF08BE3E6C0426AE39A8012AC /* Pod */,
 				1102D4ED4559C288F6AE0343C15D4153 /* Support Files */,
 			);
@@ -332,6 +338,12 @@
 					26BC60FC2BF33ED487602E52AF111DA7 = {
 						LastSwiftMigration = 1340;
 					};
+					4BF91015F708357A17B9B984138F464C = {
+						LastSwiftMigration = 1340;
+					};
+					6D639A76710EE6F7C893F3CCC6164BE1 = {
+						LastSwiftMigration = 1340;
+					};
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
@@ -383,9 +395,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A98EAF9928B27E0D00FCF9C7 /* Article.swift in Sources */,
+				A98EB02B28B2C8D400FCF9C7 /* ArticleManager.swift in Sources */,
+				A98EB03328B301ED00FCF9C7 /* Article+CoreDataProperties.swift in Sources */,
 				EB476DFE2F03498296E24A267E33FF01 /* bchelste2022-dummy.m in Sources */,
-				A98EAF9C28B27E3D00FCF9C7 /* article.xcdatamodeld in Sources */,
+				A98EB03428B303D500FCF9C7 /* article.xcdatamodeld in Sources */,
+				A98EB03228B301E900FCF9C7 /* Article+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +442,7 @@
 			baseConfigurationReference = 1C99F931E3BD58E72658367C71DCF5B7 /* Pods-bchelste2022_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -451,6 +466,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -462,6 +479,7 @@
 			baseConfigurationReference = CB9690BF58B2E325406225B6BC91B98C /* Pods-bchelste2022_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -485,6 +503,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -497,6 +516,7 @@
 			baseConfigurationReference = 1FAA1D1F29C9C53343A9E7653662F467 /* Pods-bchelste2022_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -520,6 +540,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -659,6 +680,7 @@
 			baseConfigurationReference = 0EB3431EF50A4948283A8EC0815FFAA7 /* Pods-bchelste2022_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -682,6 +704,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -798,12 +822,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A98EAF9A28B27E3D00FCF9C7 /* article.xcdatamodeld */ = {
+		A98EB02328B2B84D00FCF9C7 /* article.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A98EAF9B28B27E3D00FCF9C7 /* article.xcdatamodel */,
+				A98EB02428B2B84D00FCF9C7 /* article.xcdatamodel */,
 			);
-			currentVersion = A98EAF9B28B27E3D00FCF9C7 /* article.xcdatamodel */;
+			currentVersion = A98EB02428B2B84D00FCF9C7 /* article.xcdatamodel */;
 			path = article.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
