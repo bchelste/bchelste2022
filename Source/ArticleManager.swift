@@ -37,7 +37,7 @@ public class ArticleManager {
     
     public static let shared = ArticleManager()
     
-    public init() {
+    private init() {
         
     }
     
@@ -70,7 +70,7 @@ public class ArticleManager {
         return result
     }
     
-    public func getArticles(containingString str: String) -> [Article] {
+    public func getArticles(containString str: String) -> [Article] {
         let request: NSFetchRequest<Article> = Article.fetchRequest()
         request.predicate = NSPredicate(format: "(title CONTAINS[cd] %@) || (content CONTAINS[cd] %@)",
                                         str, str)
